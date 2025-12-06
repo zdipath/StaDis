@@ -95,7 +95,7 @@ python -u WSI_OOD_Stadis.py \
     --task=task_1_tumor_vs_normal \
     --experiment_mask=C16
 ```
-Moreover, As the first work to investigate OOD detection in computational pathology under a multiple instance learning (MIL) framework, we additionally provide implementations of several baseline OOD detection methods adapted to MIL-based WSI models.
+Moreover, as the first work to investigate OOD detection in computational pathology under a multiple instance learning (MIL) framework, we additionally provide implementations of several baseline OOD detection methods adapted to MIL-based WSI models.
 ```bash
 python -u WSI_OOD_baseline.py \
     --gpu=2 \
@@ -120,4 +120,5 @@ If our work or code is helpful for your research, please consider citing our [pa
   author  = {Di Zhang and Jiusong Ge and Jiashuai Liu and Chunbao Wang and Tieliang Gong and Zeyu Gao and Chen Li},
 }
 ```
+
 

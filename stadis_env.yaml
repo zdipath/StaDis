@@ -1,0 +1,33 @@
+name: stadis
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pytorch=2.3.0
+  - torchvision=0.18.0
+  - torchaudio=2.3.0
+  - pytorch-cuda=11.8
+  - numpy
+  - pandas
+  - scikit-learn
+  - scipy
+  - pillow
+  - matplotlib
+  - seaborn
+  - openslide-python
+  - h5py
+  - pip
+  - pip:
+      - timm
+      - monai
+      - monai-generative
+      - transformers
+      - einops
+      - faiss-gpu
+      - opencv-python
+      - tqdm
+      - openood
